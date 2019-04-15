@@ -15,4 +15,5 @@ class App < Sinatra::Base
   get '/favorite-song' do 
     "My favorite song is _"
     erb :'/favorite-song/index'
+  end 
 end
