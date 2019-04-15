@@ -3,6 +3,7 @@ require_relative 'config/environment'
 class App < Sinatra::Base
   
   get '/name' do 
+    @name = name 
     "My name is _"
     erb :'/name/index'
   end 
