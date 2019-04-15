@@ -4,7 +4,7 @@ class App < Sinatra::Base
   
   get '/name' do 
     "My name is _"
-    erb 
+    erb :'/name/index'
   end 
   
   get '/hometown' do 
